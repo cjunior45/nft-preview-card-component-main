@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT preview card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+     
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+        
+        body{
+            padding: 0;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50%;
+            margin-bottom: 50%;
+            background-color: hsl(217, 54%, 11%);
+            color: white;
+            font-family: 'Outfit', sans-serif;
+            opacity: 85%;    
+        }
+
+       
+
+        .main{
+
+            background-color: hsl(216, 50%, 16%);
+            border-radius: 5%;
+            margin-top: 50%;
+            margin-bottom: 50%;
+            width: 350px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+             
+        }
+
+        
+        .box:hover{
+            position: relative;
+            cursor: pointer;
+           
+        }        
+
+        .care{
+            position: relative;
+            width: 90%;
+            margin-top: 5%;
+            height: 55%;
+            margin-left: 5%;
+            border-radius: 5%;
+                     
+        }
+
+       
+        .i2{
+            float: left;
+            overflow: auto;         
+        }
+
+        .i3{
+            width: 30px;
+            margin-left: 10%;
+            border: solid;
+            border-radius: 50%;
+            
+           
+        }
+        h1{
+              margin-left: 10%;
+        }
+
+        h1:hover{
+            color: hsl(178, 100%, 50%);
+            cursor: pointer;
+
+        }
+        p{
+            margin-left: 10%;
+            color: hsl(215, 51%, 70%);
+        }
+
+        
+        .left{
+            display: inline-block;
+            margin-left: 10%;
+            color: hsl(178, 100%, 50%);
+            overflow: auto;
+        }
+
+        .right{
+            display: inline-block;
+            margin-left: 30%;
+            color: hsl(215, 51%, 70%);
+            overflow: auto;
+            
+        }
+
+        .bottom{
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .sign{
+            display: inline-block;
+            color: hsl(215, 51%, 70%);
+            overflow: auto;
+            
+        }
+
+      hr{
+          margin-left: 10%;
+          margin-right: 10%;
+          color: hsl(215, 32%, 27%);
+          
+      }
+
+      .j{
+          display: inline-block;
+          overflow: auto;
+      }
+      .jw{
+          margin-left: 5%;
+
+      }
+      h4{
+        font-family: 'Outfit', sans-serif;
+        color: hsl(0, 0%, 100%);
+
+      }
+
+      h4:hover{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+      }
+
+     hr{
+         margin-right: 7%;
+         border-color: rgb(86, 94, 121);
+
+     }
+        
+
+    </style>
+    
+    <section class="main">
+            <div class="box">
+                <img class="care" src="./images/image-equilibrium.jpg" alt="Balance">
+            </div>
+
+            <h1>Equilibrium #3429</h1>
+                <p>Our Equilibrium collection promotes<br>
+                 bance and calm.</p>
+
+                <div class="left">
+                    <img class="i1" src="./images/icon-ethereum.svg" alt="athereum"> 0.041 ETM   
+                </div>  
+                         
+                <div class="right">
+                    <img class="i2" src="./images/icon-clock.svg" alt="clock">&nbsp; 3 days left
+                </div>
+
+                <hr>
+                
+                <footer>
+                    <div class="bottom">
+                        <img class="i3" src="./images/image-avatar.png" alt="avatar"> 
+                        <p class="jw">Creation of <h4>&nbsp;Jules Wyvern</h4> </p>
+                    </div>
+                </footer>
+
+            </section>
+
+</head>
+<body>
+    
+
+
+</body>
+</html>
